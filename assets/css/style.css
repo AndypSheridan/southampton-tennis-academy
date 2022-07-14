@@ -7,14 +7,14 @@
 }
 
 body {
-    background-color: aqua;
+    background-color: #837090;
     font-family: Raleway, sans-serif;
 }
 
 header {
     height: 250px;
     width: 100%;
-    background-color: gray;
+    background-color: #ffe9ff;
 }
 
 img {
@@ -39,13 +39,13 @@ li {
 
 li a {
     font-size: 180%;
-    display: block;
+    float: right;
     text-align: center;
-    color: whitesmoke;
+    color: #632697;
     text-decoration: none;
     padding: 100px 80px;
 }
 
 li a:hover {
-    background-color: aqua;
+    background-color: #837090;
 }

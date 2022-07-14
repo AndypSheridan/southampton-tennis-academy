@@ -1,3 +1,24 @@
+* {
+    margin: 0;
+    padding: 0;
+    border: none;
+}
+
 body {
     background-color: aqua;
+}
+
+header {
+    height: 250px;
+    width: 100%;
+    background-color: gray;
+}
+
+img {
+    height: 250px;
+    width: 250px;
+}
+
+#menu {
+    float: right;
 }

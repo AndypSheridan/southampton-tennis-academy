@@ -54,11 +54,11 @@ li a {
     font-size: 180%;
     float: right;
     text-align: center;
-    color: #3D2F33;
+    color: #9544CB;
     text-decoration: none;
     margin: 3em 1em;
 }
 
 li a:hover {
-    border-bottom: 1px solid #3D2F33;
+    border-bottom: 1px solid #9544CB;
 }

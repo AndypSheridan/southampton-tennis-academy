@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=Raleway&display=swap');
+
 * {
     margin: 0;
     padding: 0;
@@ -6,6 +8,7 @@
 
 body {
     background-color: aqua;
+    font-family: Raleway, sans-serif;
 }
 
 header {
@@ -21,4 +24,28 @@ img {
 
 #menu {
     float: right;
+}
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+}
+
+li {
+    float: left;
+}
+
+li a {
+    font-size: 180%;
+    display: block;
+    text-align: center;
+    color: whitesmoke;
+    text-decoration: none;
+    padding: 100px 80px;
+}
+
+li a:hover {
+    background-color: aqua;
 }

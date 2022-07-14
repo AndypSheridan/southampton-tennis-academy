@@ -17,9 +17,22 @@ header {
     background-color: #ffe9ff;
 }
 
+.image {
+    background: url('../images/pexels-iconcom-226587.jpg') no-repeat center center;
+    height: 250px;
+    width: 100%;
+    position: relative;
+}
+
 img {
     height: 250px;
     width: 250px;
+}
+
+#menu, #logo {
+    line-height: 70px;
+    letter-spacing: 4px;
+    margin-right: 30px;
 }
 
 #menu {
@@ -33,7 +46,7 @@ ul {
     overflow: hidden;
 }
 
-li {
+#menu li {
     float: left;
 }
 
@@ -41,11 +54,11 @@ li a {
     font-size: 180%;
     float: right;
     text-align: center;
-    color: #632697;
+    color: #3D2F33;
     text-decoration: none;
-    padding: 100px 80px;
+    margin: 3em 1em;
 }
 
 li a:hover {
-    background-color: #837090;
+    border-bottom: 1px solid #3D2F33;
 }

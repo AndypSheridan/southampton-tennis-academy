@@ -66,3 +66,17 @@ li a:hover {
 .active {
     border-bottom: 1px solid #9544CB;
 }
+
+#hero-outer {
+    height: 750px;
+    width: 100%;
+    overflow: hidden;
+    position: relative;
+}
+
+#hero-image {
+    height: 750px;
+    width: 100%;
+    background: url('../images/hero-image.jpg') no-repeat center center;
+    background-size: cover;
+}

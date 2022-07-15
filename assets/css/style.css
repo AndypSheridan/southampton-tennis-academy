@@ -7,7 +7,6 @@
 }
 
 body {
-    background-color: #837090;
     font-family: Raleway, sans-serif;
 }
 
@@ -115,3 +114,23 @@ li a:hover {
     position: absolute;
 }
 
+    
+#philosophy {
+    font-size: 125%;
+    text-align: justify;
+    text-align-last: center;
+    letter-spacing: 1.5px;
+
+    height: 250px;
+    max-width: 100%;
+
+    padding: 20px 30px 5px 30px;
+    
+    color: #fff;
+    background-color: #9544CB;
+
+
+
+
+
+}

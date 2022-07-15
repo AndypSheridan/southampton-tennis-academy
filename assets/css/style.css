@@ -93,3 +93,25 @@ li a:hover {
         transform: scale(1.1);
     }
 }
+
+#cover-text {
+    color: #fff;
+    font-size: 90%;
+    font-family: Raleway, sans-serif;
+    letter-spacing: 3px;
+
+    text-transform: capitalize;
+    width: 500px;
+    height: 250px;
+
+    padding-top: 40px;
+    padding-left: 10px;
+
+    background-color: rgba(149, 68, 203, 0.8);
+
+    bottom: 90px;
+    right: 160px;
+
+    position: absolute;
+}
+

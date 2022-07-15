@@ -130,44 +130,13 @@ li a:hover {
     background-color: #9544CB;
 }
 
-#academy-programme {
-    height: 750px;
-}
-
-#left-programme {
-    padding-top: 30px;
-    width: 33%;
-    float: left;
+#programme div {
     background-color: #ffe9ff;
-}
-
-.left-programme-heading {
-    width: 60%;
-    float: right;
-    line-height: 20px;
-    clear: both;
-    margin-bottom: 50px;
-}
-
-#right-programme {
-    padding-top: 30px;
     width: 33%;
-    float: right;
-    background-color: #ffe9ff;
-}
-
-.right-programme-heading {
-    width: 60%;
+    height: 250px;
     float: left;
-    line-height: 20px;
-    clear: both;
-    margin-bottom: 50px;
-}
-
-.right-programme-heading h2 {
-    text-align: right;
-}
-
-.right-programme-heading p {
-    text-align: right;
+    padding: 30px 0 0 10px;
+    text-align: center;
+    border: 2px solid white;
+    box-sizing: border-box;
 }

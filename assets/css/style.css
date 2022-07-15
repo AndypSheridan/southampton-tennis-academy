@@ -79,4 +79,17 @@ li a:hover {
     width: 100%;
     background: url('../images/hero-image.jpg') no-repeat center center;
     background-size: cover;
+
+    animation-name: hero-zoom;
+    animation-duration: 6s;
+    animation-fill-mode: backwards;
+}
+
+@keyframes hero-zoom {
+    from{
+        transform: scale(1);
+    }
+    to{
+        transform: scale(1.1);
+    }
 }

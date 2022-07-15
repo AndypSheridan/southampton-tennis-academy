@@ -128,9 +128,23 @@ li a:hover {
     
     color: #fff;
     background-color: #9544CB;
+}
 
+#academy-programme {
+    height: 750px;
+}
 
+#left-programme {
+    padding-top: 30px;
+    width: 33%;
+    float: left;
+    background-color: #ffe9ff;
+}
 
-
-
+.left-programme-heading {
+    width: 60%;
+    float: right;
+    line-height: 20px;
+    clear: both;
+    margin-bottom: 50px;
 }

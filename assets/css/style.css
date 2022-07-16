@@ -58,7 +58,7 @@ img {
     margin: 3em 1em;
 }
 
-li a:hover {
+.menu-list li a:hover {
     border-bottom: 1px solid #9544CB;
 }
 
@@ -116,6 +116,13 @@ li a:hover {
     position: absolute;
 }
 
+#contact {
+    color: #fff;
+}
+
+.facilities li {
+    list-style-type: none;
+}
     
 #philosophy {
     font-size: 125%;
@@ -133,27 +140,35 @@ li a:hover {
 }
 
 #programme div {
+    color: #575359;
     background-color: #ffe9ff;
-    width: 33%;
+    width: 33.3%;
     height: 250px;
     float: left;
     padding: 30px 0 0 10px;
     text-align: center;
-    border: 2px solid white;
+    border: 2.5px solid white;
     box-sizing: border-box;
 }
 
 footer {
-    height: 250px;
+    height: 150px;
     margin: auto;
     clear: both;
 }
 
 .social-networks {
-    margin: auto;
+    text-align: center;
+    background-color: #575359;
 }
 
 .social-networks > li {
     display: inline;
-    margin: 0 auto;
+}
+
+.social-networks i {
+    font-size: 250%;
+    margin: 1%;
+    padding: 5%;
+    color: #ffe9ff;
 }

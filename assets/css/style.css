@@ -172,3 +172,12 @@ footer {
     padding: 5%;
     color: #ffe9ff;
 }
+
+@media screen and (max-width:1293px) {
+    #philosophy {
+        width: 95%;
+        height: 400px;
+        margin: 0 auto;
+    }
+
+}

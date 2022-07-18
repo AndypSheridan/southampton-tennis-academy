@@ -25,7 +25,7 @@ header {
     position: relative;
 }
 
-img {
+#logo {
     height: 250px;
     width: 250px;
 }
@@ -176,6 +176,10 @@ footer {
     padding: 5%;
     color: #ffe9ff;
 }
+
+/* Team Page */
+
+
 
 @media screen and (max-width:1293px) {
     #philosophy {

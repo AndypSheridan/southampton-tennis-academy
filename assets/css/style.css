@@ -179,7 +179,18 @@ footer {
 
 /* Team Page */
 
+.row {
+    width: 100%;
+}
 
+.column {
+    width: 33.33%;
+    float: left;
+}
+
+.column img {  
+    width: 100%;
+}
 
 @media screen and (max-width:1293px) {
     #philosophy {

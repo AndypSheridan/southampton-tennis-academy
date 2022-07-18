@@ -193,7 +193,7 @@ footer {
         margin: 0 auto;
         background-color: #ffe9ff;
         height: 100px;
-        min-width: auto;
+        
     }
 
     .menu-list li a {
@@ -224,4 +224,19 @@ footer {
         bottom: 25px;
         right: 25px;
     }
+}
+
+@media screen and (max-width:320px) {
+    #logo {
+        width: 125px;
+        height: 125px;
+    }
+
+    #menu {
+        float: right;
+    }
+
+    .menu-list li a {
+    padding: 10px;
+    }    
 }

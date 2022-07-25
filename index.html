@@ -8,33 +8,35 @@
     <meta name="description" content="Southampton Tennis Academy, inclusive tennis for everyone in Southampton, UK">
     <meta name="keywords" content="tennis academy, inclusive, Southampton, UK">
     <link rel="stylesheet" href="assets/css/style.css">
+    <script type="text/javascript" src="script.js" defer></script>
     <title>Southampton Tennis Academy</title>
 </head>
 
 <body>
-    <header id="header" class="image">
-        <a href="index.html">
-            <img id="logo" src="assets/images/Southampton Tennis Academy.png">
-        </a>
-        <nav id="menu">
-            <ul class="menu-list">
-                <li>
-                    <a class="active" href="index.html">Home <i class="fa-solid fa-house"></i></a>
-                </li>
-                <li>
-                    <a href="team.html">Our Team <i class="fa-solid fa-people-group"></i></a>
-                </li>
-                <li>
-                    <a href="#">Contact <i class="fa-solid fa-pen"></i></a>
-                </li>
-            </ul>
-        </nav>
-    </header>
+    <nav class="navbar">
+        <ul>
+            <li class="logo"><a href="index.html"><img src="assets/images/Southampton Tennis Academy.png" alt="STA Logo"></a></li>
+            <li class="navbar-toggle"><i class="fas fa-bars"></i></li>
+            <li class="navbar-links"><a href="index.html">Home</a></li>
+            <li class="navbar-links"><a href="team.html">Team</a></li>
+            <li class="navbar-links"><a href="form.html">Sign Up</a></li>
+        </ul>
+    </nav>
+    <section id="opener">
+        <div id="philosophy">
+            <h2>At Southampton Tennis Academy we put the player at the centre of everything we do.</h2>
+            <br>
+            <h3>We believe that <em>tennis is a game for life</em>  and it's our mission to help you develop as a player and a person on and off the court.</h3> 
+            <br>
+            <p>We have outstanding adult and junior programmes taylor-made to individuals of all ages and abilities. All of our staff are trained to provide you with everything you will need to improve your game and take it to the next level whether you are a junior club player or a world-ranked adult. STA Tennis is based upon three core principles which we focus on to bring out the best in your game: <strong>Competition,</strong> <strong>Coaching</strong> and <strong>Practice.</strong> You can learn more about how we implement these below.</p>
+        </div>
+    </section>
+
     <section id="hero-outer">
         <div id="hero-image">
         </div>
         <div id="cover-text">
-            <h2>Come and Visit Our Academy!</h2>
+            <h2>Come and Visit Us!</h2>
             <br>
             <h3>We have:</h3>
             <br>
@@ -46,27 +48,10 @@
                 <li>A State of the Art Fitness Centre</li>
             </ul>
             <br>
-            <h3><a id="contact" href="#">Contact Us</a> For Our Summer Membership Deals</h3>
+            <h3><a id="contact" href="#footer">Contact Us</a> For Our Summer Membership Deals</h3>
         </div>
     </section>
-    <section>
-            <div id="philosophy">
-                <h2>We believe that <em>tennis is a game for life</em>  and we strive to make it inclusive for all.</h2> 
-                <br>
-                <p> 
-                At Southampton Tennis Academy we always put the player at the centre of everything we do.
-                <br>
-                <br>
-                We want players to love every aspect of their tennis experience, to commit to the game long term, achieve their goals and develop all the life skills that a healthy sport experience can bring.  
-                <br>
-                <br>
-                We know that a programme must be much more than just coaching lessons so that this does not become the sport.
-                <br>
-                <br>
-                <p>Learn more about the core elements that underpin our tennis programme below  <i class="fa-solid fa-arrow-down"></i>
-                </p>
-            </div>
-    </section>
+    
     <section id="programme">
         <div>
             <h2>Competition <i class="fa-regular fa-handshake"></i></h2>
@@ -90,8 +75,11 @@
                 </p>
         </div>
     </section>
-    <footer>
+    <footer id="footer">
         <ul class ="social-networks">
+            <li>
+                <a href="mailto:enquiries@sta-tennis.net" target="_blank" rel="noopener" aria-label="Email Us (opens in a new tab")><i class="fa-solid fa-at"></i></a>
+            </li>
             <li>
                 <a href="https://facebook.com" target="_blank" rel="noopener" aria-label="Visit our Facebook page (opens in a new tab")><i class="fab fa-facebook"></i></a>
             </li>
@@ -103,11 +91,12 @@
             </li>
             <li>
                 <a href="https://instagram.com" target="_blank" rel="noopener" aria-label="Visit our Instagram page (opens in a new tab")><i class="fa-brands fa-instagram"></i></a>
-            </li>
-           </ul>
+            </li>    
+        </ul>
     </footer>
     <!--font awesome script-->
     <script src="https://kit.fontawesome.com/1f96aaee4c.js" crossorigin="anonymous"></script>
+    <!-- <script src="https://kit.fontawesome.com/yourcode.js" crossorigin="anonymous"></script> -->
 </body>
 
 </html>

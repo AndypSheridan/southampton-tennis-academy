@@ -23,47 +23,51 @@
         </ul>
     </nav>
 
-    <section id="welcome">        
-            <h1>Meet the Team!</h1>
+    <section class="form-section">
+        <form method="POST" action="https://formdump.codeinstitute.net/" class="signup-form">
+            <h2>Sign Up Here!</h2>
+            <h3>We'll get back to you within 24 hours</h3>
+            <label for="fullname">Full Name</label>
+            <input id="fullname" class="text-input" type="text" name="full-name" required>
+            <br>
+            <label for="birthdate">Date of Birth</label>
+            <input id="birthdate" class="text-input" type="date" name="birth_date" required>
+            <br>
+            <label for="email">Email Address</label>
+            <input id="fullname" class="text-input" type="text" name="email_address" required>
+            <br>
+            <br>
+            <h3>I am looking for:</h3>
+            <label for="junior">Junior Coaching</label>
+            <input type="radio" id="junior" name="coaching_preference" value="junior" required>
+            <label for="adult">Adult Coaching</label>
+            <input type="radio" id="adult" name="coaching_preference" value="adult">
+            <br>
+            <br>
+            <label for="individual">Individual Coaching</label>
+            <input type="checkbox" id="individual" name="individual" value="individual_coaching" required>
+            <label for="group">Group Coaching</label>
+            <input type="checkbox" id="group" name="group" value="group_coaching">
+            <label for="conditioning">Tennis Conditioning Training</label>
+            <input type="checkbox" name="conditioning" id="conditioning" value="conditioning_training">
+            <br>
+            <br>
+            <label for="experience">Years Playing Experience</label>
+            <select name="playing_experience" id="experience">
+                <option value="none">None</option>
+                <option value="1-2">1-2</option>
+                <option value="3-5">3-5</option>
+                <option value="5-8">5-8</option>
+                <option value="8-15">8-15</option>
+                <option value="15+">15+</option>
+            </select>
+            <br>
+            <br>
+            <input class="game-button" type="submit" value="Game On!">
+
+        </form>
     </section>
-   
-    <section id="team">
-        <div class="row">
-            <div class="column">
-                <div>
-                    <img id="coach" src="assets/images/pexels-anna-shvets-5069176.jpg" alt="Coach Anna relaxing on a tennis court">
-                </div>
-                <div>
-                    <h3>Coach Anna</h3>
-                    <p>
-                        Anna has recently joined the team and has already developed a great reputation for being a hard-working coach who engages brilliantly with both children and adults. Be prepared to run!
-                    </p>
-                </div>
-            </div>
-            <div class="column">
-                <div>
-                    <img id="coach" src="assets/images/pexels-jim-de-ramos-1277397.jpg" alt="Coach Jim hitting a forehand">
-                </div>
-                <div>
-                    <h3>Coach Jim</h3>
-                    <p>
-                        Jim is a founding member of the academy. He has been coaching for over ten years and has worked all over the world. He has a great track record of coaching players of all ages and abilities.
-                    </p>
-                </div>
-            </div>
-            <div class="column">
-            <div>
-                <img id="coach" src="assets/images/pexels-cottonbro-5741044.jpg" alt="Coach Mandi posing with a racket">
-            </div>
-            <div>
-                <h3>Coach Mandi</h3>
-                <p>
-                    Mandi is our newest recruit and has left a prestigious role at the Bolletieri Academy in Florida to help us grow our Academy programme. If you can't see her out on the court, she will be in the gym!
-                </p>
-            </div>
-        </div>
-    </section>
-   
+    
     <footer id="footer">
         <ul class ="social-networks">
             <li>
@@ -85,6 +89,7 @@
     </footer>
     <!--font awesome script-->
     <script src="https://kit.fontawesome.com/1f96aaee4c.js" crossorigin="anonymous"></script>
-    <script src="https://kit.fontawesome.com/yourcode.js" crossorigin="anonymous"></script>
+   <!-- <script src="https://kit.fontawesome.com/yourcode.js" crossorigin="anonymous"></script> -->
 </body>
+
 </html>

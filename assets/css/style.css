@@ -10,77 +10,106 @@ body {
     font-family: Raleway, sans-serif;
 }
 
-header {
-    height: 250px;
+.navbar {
+    background: url('../images/pexels-todd-trapani-2339377.png') no-repeat center center;
+}
+
+.navbar ul {
+    display: flex;
     width: 100%;
-    min-width: 168px;
-    background-color: #ffe9ff;
-    position: fixed;
+    align-items: center;
+    color: white;
 }
 
-.image {
-    background: url('../images/pexels-iconcom-226587.jpg') no-repeat center center;
-    height: 250px;
-    width: 100%;
-    position: relative;
-}
-
-#logo {
-    height: 250px;
-    width: 250px;
-}
-
-#menu, #logo {
-    line-height: 75px;
-    letter-spacing: 4px;
-    margin-right: 25px;
-}
-
-#menu {
-    float: right;
-}
-
-.menu-list {
+.navbar li {
     list-style-type: none;
-    margin: 0;
-    padding: 0;
-    overflow: hidden;
-    display: inline;
-}
+    }
 
-#menu li {
-    float: left;
-}
-
-.menu-list li a {
-    font-size: 160%;
-    font-weight: bold;
-    float: right;
-    text-align: center;
-    color: #9544CB;
+.navbar a {
     text-decoration: none;
-    margin: 3em 1em;
+    color: #ffe9ff;
+    font-size: 150%;
 }
 
-.menu-list li a:hover {
-    border-bottom: 1px solid #9544CB;
+.logo {
+    flex: 1;
+    user-select: none;
 }
 
-.active {
-    border-bottom: 1px solid #9544CB;
+.logo img {
+    width: 203.5px;
+    height: 203.5px;
+    display: block;
+}
+
+.navbar-links {
+    padding: 1.5rem;
+}
+
+.navbar-links:hover {
+    background-color: #9544CB;
+    color: white;
+}
+
+.navbar-toggle {
+    display: none;
+}
+
+/* Home Page */
+
+#philosophy {
+    font-size: 125%;
+    text-align: justify;
+    text-align-last: center;
+    letter-spacing: 1.5px;
+
+    height: auto;
+    max-width: 100%;
+
+    padding: 20px 30px 15px 30px;
+    
+    color: #575359;
+    background: linear-gradient(purple, gray);
+}
+
+#philosophy h2 {
+    width: 95%;
+    color: #ffe9ff;
+    margin: 0 auto;
+    padding: 5px;
+}
+
+#philosophy h3 {
+    color: #ffe9ff;
+    margin: 0 auto;
+    width: 95%;
+    padding: 5px;
+}
+
+#philosophy {
+    color: #575359;
+}
+
+#philosophy p {
+    background-color: transparent;
+    color: #ffe9ff;
+    margin: 0 auto;
+    width: 95%;
+    font-size: 90%;
+    padding: 5px;
 }
 
 #hero-outer {
-    height: 750px;
+    height: 600px;
     width: 100%;
     overflow: hidden;
     position: relative;
 }
 
 #hero-image {
-    height: 750px;
+    height: 600px;
     width: 100%;
-    background: url('../images/hero-image.jpg') no-repeat center center;
+    background: url('../images/hero-image.jpeg') no-repeat center center;
     background-position: center;
     background-size: cover;
     overflow: hidden;
@@ -109,8 +138,7 @@ header {
     width: 500px;
     height: 250px;
 
-    padding-top: 40px;
-    padding-left: 10px;
+    padding: 15px 5px;
 
     background-color: rgba(149, 68, 203, 0.8);
 
@@ -128,21 +156,6 @@ header {
     list-style-type: none;
 }
     
-#philosophy {
-    font-size: 125%;
-    text-align: justify;
-    text-align-last: center;
-    letter-spacing: 1.5px;
-
-    height: 250px;
-    max-width: 100%;
-
-    padding: 20px 30px 15px 30px;
-    
-    color: #fff;
-    background-color: #9544CB;
-}
-
 #programme div {
     color: #575359;
     background-color: #ffe9ff;
@@ -155,28 +168,6 @@ header {
     box-sizing: border-box;
 }
 
-footer {
-    height: 150px;
-    margin: auto;
-    clear: both;
-}
-
-.social-networks {
-    text-align: center;
-    background-color: #575359;
-}
-
-.social-networks > li {
-    display: inline;
-}
-
-.social-networks i {
-    font-size: 250%;
-    margin: 1%;
-    padding: 5%;
-    color: #ffe9ff;
-}
-
 /* Team Page */
 
 #welcome {
@@ -185,23 +176,36 @@ footer {
     color: #fff;
     font-size: 280%;
     text-align: center;
-    padding: 60px 0px 10px 0px;
+    padding: 25px;
+}
+
+#welcome h1 {
+    height: auto;
+    padding: 25px;
+}
+
+#team {
+    width: 100%;
+    height: auto;
 }
 
 .row {
     width: 100%;
+    height: auto;
+    clear: both;
 }
 
 .column {
     width: 33.33%;
-    height: 100%;
+    height: 500px;
     float: left;
+    background-color: #ffe9ff;
 }
 
 .column img {  
     width: 100%;
     background-color: #ffe9ff;
-    display: block;
+    
 }
 
 .column h3, p {
@@ -216,36 +220,114 @@ footer {
 }
 
 .column p {
-    padding: 25px;
+    padding: 10px;
+    height: 50px;
 }
 
-@media screen and (max-width:1293px) {
+/* Form Page */
+
+.form-section {
+    clear: left;
+    background: url('../images/pexels-cottonbro-6292755.jpg');
+    height: 1000px;
+    background-size: cover;
+    background-position: center;
+}
+
+.signup-form {
+    margin: 175px 0 50px;
+    color: #ffe9ff;
+    background-color: rgba(149, 68, 203, 0.3);
+    max-width: 400px;
+    position: absolute;
+    left: 5%;
+    padding: 30px;
+}
+.signup-form h2 h3 {
+    color: #ffe9ff;
+    margin-bottom: 20px;
+}
+
+.text-input {
+    background: transparent;
+    color: #ffe9ff;
+    width: 100%;
+    height: 25px;
+    margin: 5px 0 20px 0;
+    border: 1px solid #ffe9ff;
+    border-radius: 10px;
+}
+
+.text-input:hover {
+    border-color: #e7df49;
+}
+
+.game-button {
+    margin-top: 25px;
+    border-radius: 10px;
+    padding: 20px;
+    text-align: center;
+    font-size: 100%;
+    background-color: #575359;
+    color: #ffe9ff;
+    display: block;
+}
+
+.game-button:hover {
+    background-color: #e7df49;
+    color: #9544CB;
+}
+
+/* Footer */
+
+#footer {
+    height: 150px;
+}
+
+.social-networks {
+    text-align: center;
+    background-color: #575359;
+}
+
+.social-networks ul {
+    height: auto;
+}
+
+.social-networks > li {
+    display: inline;
+}
+
+.social-networks i {
+    font-size: 250%;
+    margin: 1px;
+    padding: 5%;
+    color: #ffe9ff;
+}
+
+/* Media Queries */
+
+@media screen and (max-width:1200px) {
     #philosophy {
         width: auto;
-        height: 400px;
+        height: auto;
     }
-
 }
 
 @media screen and (max-width:950px) {
-
-   
     #menu {
         width: 100%;
         margin: 0 auto;
-        background-color: #ffe9ff;
         height: 100px;
-        
     }
 
-    .menu-list li a {
+    #menu li a {
        font-size: 100%;
        font-weight: bolder; 
        margin: 0 auto;
-       text-align: left;
+       float: left;
        display: block;
-       padding: 5px 65px;
-       min-width: auto;
+       padding: 5px;
+       max-width: auto;
     }
     
     #philosophy {
@@ -266,19 +348,57 @@ footer {
         bottom: 25px;
         right: 25px;
     }
+
+    .column {
+        clear: both;
+        width: 100%;
+        height: auto;
+
+    }
 }
 
-@media screen and (max-width:320px) {
+@media screen and (max-width: 600px) {
+    .navbar ul {
+        flex-wrap: wrap;
+    }
+    
+    .navbar-toggle {
+        display: block;
+        margin-right: 25px;
+    }
+
+    .navbar-links {
+        display: none;
+        width: 100%;
+        text-align: center;
+    }
+
+
+    .active {
+        display: block;
+    }
+
+    #welcome h1 {
+        font-size: 90%;
+    }
+
+    .column p {
+        height: auto;
+        clear:both;
+    }
+}
+
+/*@media screen and (max-width:320px) {
     #logo {
         width: 125px;
         height: 125px;
     }
 
     #menu {
-        float: right;
+        float: left;
     }
 
-    .menu-list li a {
-    padding: 10px;
+    #menu li a {
+    padding: 4px;
     }    
-}
+} */

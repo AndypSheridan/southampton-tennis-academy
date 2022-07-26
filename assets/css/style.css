@@ -69,7 +69,7 @@ body {
     padding: 20px 30px 15px 30px;
     
     color: #575359;
-    background: linear-gradient(purple, gray);
+    background: linear-gradient(to bottom right, #9544CB, #575359);
 }
 
 #philosophy h2 {
@@ -197,7 +197,7 @@ body {
 
 .column {
     width: 33.33%;
-    height: 500px;
+    height: auto;
     float: left;
     background-color: #ffe9ff;
 }
@@ -287,10 +287,20 @@ body {
 .social-networks {
     text-align: center;
     background-color: #575359;
+    height: auto;
+    display: inline-flex;
+    justify-content: space-around;
+    width: 100%;
+    FONT-WEIGHT: 200;
+    padding: 30px 0
 }
 
 .social-networks ul {
     height: auto;
+    display: inline-flex;
+    justify-content: space-around;
+    width: 100%;
+    FONT-WEIGHT: 200;
 }
 
 .social-networks > li {
@@ -331,9 +341,9 @@ body {
     }
     
     #philosophy {
-        height: 500px;
         padding: 30px;
         width: auto;
+        height: auto;
     }
 
     #programme div {
@@ -358,6 +368,11 @@ body {
 }
 
 @media screen and (max-width: 600px) {
+    .logo img {
+        width: 150px;
+        height: auto;
+    }
+    
     .navbar ul {
         flex-wrap: wrap;
     }
@@ -373,9 +388,21 @@ body {
         text-align: center;
     }
 
+    #philosophy {
+        height: auto;
+        font-size: 100%;
+    }
 
     .active {
         display: block;
+    }
+
+    #cover-text {
+        margin-left: 2rem;
+        max-width: fit-content;
+        max-height: fit-content;
+        height: auto;
+        font-size: 90%;
     }
 
     #welcome h1 {
@@ -385,6 +412,10 @@ body {
     .column p {
         height: auto;
         clear:both;
+    }
+
+    .social-networks i {
+        font-size: 175%;
     }
 }
 

@@ -221,7 +221,7 @@ body {
 
 .column p {
     padding: 10px;
-    height: 50px;
+    height: 100px;
 }
 
 /* Form Page */
@@ -285,6 +285,7 @@ body {
 }
 
 .social-networks {
+    clear: both;
     text-align: center;
     background-color: #575359;
     height: auto;
